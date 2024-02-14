@@ -1,0 +1,20 @@
+﻿# TODO: Translation updated at 2023-09-17 12:33 #|#|# # §translate crowdin strings: #|#|# # game/nqtr_screens/screens_nqtr.rpy:82
+msgid "Settings"
+msgstr ""
+
+# game/nqtr_screens/screens_nqtr.rpy:93
+msgid "Characters info"
+msgstr ""
+
+# game/nqtr_screens/screens_nqtr.rpy:135
+msgid "Backpack"
+msgstr ""
+
+# game/nqtr_screens/screens_nqtr.rpy:146
+msgid "Smartphone"
+msgstr ""
+
+# game/nqtr_screens/screens_nqtr.rpy:156
+msgid "Map"
+msgstr ""
+

@@ -1,0 +1,12 @@
+﻿# TODO: Translation updated at 2023-09-17 12:33 #|#|# # §translate crowdin strings: #|#|# # game/nqtr_screens/screens_memo.rpy:18
+msgid "Memo"
+msgstr ""
+
+# game/nqtr_screens/screens_memo.rpy:101
+msgid "It is currently the end of this story, unfortunately you have to wait for an update to continue this story."
+msgstr ""
+
+# game/nqtr_screens/screens_memo.rpy:103
+msgid "You have completed all the quests."
+msgstr ""
+
