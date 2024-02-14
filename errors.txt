@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/nqtr_screens/screens_nqtr.rpy", line 15: 'quest_update' is not a keyword argument or valid child of the screen statement.
+    quest_update("chapter1")
+                ^
+
+Ren'Py Version: Ren'Py 8.1.3.23091805
+Mon Jan 15 13:28:36 2024

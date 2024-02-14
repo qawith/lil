@@ -1,0 +1,62 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 90, in script call
+    call screen room_navigation
+  File "game/nqtr_screens/screens_nqtr.rpy", line 218, in script call
+    $ renpy.call(label_name_to_call)
+  File "game/nqtr_tool/nav_label_fun.rpy", line 57, in script call
+    call screen room_navigation
+  File "game/nqtr_screens/screens_nqtr.rpy", line 208, in script call
+    call screen room_navigation with Dissolve(0.25)
+  File "game/nqtr_screens/screens_nqtr.rpy", line 208, in script call
+    call screen room_navigation with Dissolve(0.25)
+  File "game/nqtr_screens/screens_nqtr.rpy", line 218, in script call
+    $ renpy.call(label_name_to_call)
+  File "game/nqtr_tool/nav_label_fun.rpy", line 57, in script call
+    call screen room_navigation
+  File "game/nqtr_screens/screens_nqtr.rpy", line 208, in script
+    call screen room_navigation with Dissolve(0.25)
+  File "renpy/common/000statements.rpy", line 670, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+Exception: renpy.restart_interaction() was called 100 times without processing any input.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 90, in script call
+    call screen room_navigation
+  File "game/nqtr_screens/screens_nqtr.rpy", line 218, in script call
+    $ renpy.call(label_name_to_call)
+  File "game/nqtr_tool/nav_label_fun.rpy", line 57, in script call
+    call screen room_navigation
+  File "game/nqtr_screens/screens_nqtr.rpy", line 208, in script call
+    call screen room_navigation with Dissolve(0.25)
+  File "game/nqtr_screens/screens_nqtr.rpy", line 208, in script call
+    call screen room_navigation with Dissolve(0.25)
+  File "game/nqtr_screens/screens_nqtr.rpy", line 218, in script call
+    $ renpy.call(label_name_to_call)
+  File "game/nqtr_tool/nav_label_fun.rpy", line 57, in script call
+    call screen room_navigation
+  File "game/nqtr_screens/screens_nqtr.rpy", line 208, in script
+    call screen room_navigation with Dissolve(0.25)
+  File "E:\Coding\Config\renpy-8.1.3-sdk\renpy\ast.py", line 2259, in execute
+    self.call("execute")
+  File "E:\Coding\Config\renpy-8.1.3-sdk\renpy\ast.py", line 2241, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "E:\Coding\Config\renpy-8.1.3-sdk\renpy\statements.py", line 342, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 670, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "E:\Coding\Config\renpy-8.1.3-sdk\renpy\exports.py", line 3347, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "E:\Coding\Config\renpy-8.1.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "E:\Coding\Config\renpy-8.1.3-sdk\renpy\display\core.py", line 3580, in interact
+    raise Exception("renpy.restart_interaction() was called 100 times without processing any input.")
+Exception: renpy.restart_interaction() was called 100 times without processing any input.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.1.3.23091805
+Love in Locker 0.2a
+Mon Jan 15 13:03:03 2024
